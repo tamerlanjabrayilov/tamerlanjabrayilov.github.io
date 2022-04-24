@@ -1,0 +1,135 @@
+	/* reset */
+	
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		margin: 0;
+		padding: 0;
+	}
+
+	ul { list-style:none;}
+	ol { list-style:decimal; list-style-position:inside;}
+	ul li { background:url(/images/li.gif) 0px 8px no-repeat; padding-left:22px; margin-left:11px;}
+	ol li {}
+	
+
+	/* CSS */
+	body {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:15px; color:#333; font-weight:normal; line-height:1.4;}	
+	input,select,textarea {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:15px; color:#333; background:#ffffd7; font-weight:normal; padding:5px;  border:1px solid #ccc; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px; -ms-border-radius:3px; border-radius:3px; }	
+
+	a {text-decoration:underline; color:#087280;}
+	a:hover {text-decoration:none;}
+
+	.button {cursor:pointer; padding:7px 13px 7px 13px; margin:5px 0px 0px 0px; text-decoration:none; display:inline-block; background:#0cb92d; font-weight:normal; color:#fff; font-size:12px; line-height:15px; box-shadow:0px 0px 2px #989fa1; -webkit-box-shadow:0px 0px 2px #989fa1; -moz-box-shadow:0px 0px 2px #989fa1; border:1px solid #fff; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px; -ms-border-radius:3px; border-radius:3px; }	
+	.button:hover {border:1px solid #0cb92d; }	
+		
+	.delete {cursor:pointer; padding:7px 13px 7px 13px; margin:5px 0px 0px 0px; text-decoration:none; display:inline-block; background:#e3503d; font-weight:normal; color:#fff; font-size:12px; line-height:15px; box-shadow:0px 0px 2px #989fa1; -webkit-box-shadow:0px 0px 2px #989fa1; -moz-box-shadow:0px 0px 2px #989fa1; border:1px solid #fff; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px; -ms-border-radius:3px; border-radius:3px; }	
+	.delete:hover {border:1px solid #e3503d; background:#f00}	
+
+
+	.pager { border-bottom:1px solid #087280; font-size:16px; margin-bottom:20px;}
+	.pager a { border-bottom:1px solid #fff; background:#fff; color:#087280; padding:5px 10px 5px 10px; display:inline-block; text-decoration:none; margin-right:10px;}
+	.pager a:hover { border-bottom:1px solid #087280; background:#087280; color:#fff;}
+	.pager span { border-bottom:1px solid #087280; background:#087280; color:#fff; padding:5px 10px 5px 10px; display:inline-block; margin-right:10px;}
+
+	.item { width:180px; height:260px; margin:0px 20px 40px 0px; float:left; display:block; text-decoration:none;}
+	.item h5 { width:180px; height:40px; display:block; line-height:14px; font-size:13px; font-weight:normal}
+	.item img {border:1px solid #ddd;}
+	.item .text { width:184px; height:40px; font-size:11px; margin-bottom:5px}
+
+	.br { clear:both;}
+	
+	img {border:none; font-size:11px;}
+	hr { display:block; height:1px; border:none; border-top:1px solid #0ca5ba; margin:10px 0px 10px 0px;}
+
+
+	#main {}
+	.top { height:114px; background:#0ca5ba url(/cms/images/top-bg.gif) repeat-x;}
+	
+	#logo{ display:block; text-align:center; margin:0px 40px 0px 50px; padding-top:22px;}
+	
+	#title{ padding:0px 20px 0px 270px; text-align:left; font-size:14px; color:#555;}
+	#title select { width:60px;}	
+	#title h1 { font-size:30px; color:#fff; font-weight:normal; padding:10px 0px 10px 0px;}
+	
+	#main #menu { width:180px; float:left; background:#ffffd7; text-align:right;}
+	#main #menu #lmenu {padding:20px 20px 20px 20px}
+	#main #menu .menu_item { font-size:16px; color:#000; line-height:26px;}
+	#main #menu .menu_item a {color:#000;}
+	
+	#main #content {}
+	#main #content #text {padding:20px 20px 20px 200px;}
+
+	#tmenu { color:#FFF; position:absolute; top:0px; left:0px; white-space:nowrap; z-index:10;}
+	#tmenu a { background:#087280; color:#FFF; font-size:18px; display:inline-block; padding:10px 20px 10px 20px; margin:-2px 0px 0px -1px; cursor:pointer; text-decoration:none; border:1px solid #fff; -moz-border-radius:3px; -webkit-border-radius:3px; -o-border-radius:3px; -ms-border-radius:3px; border-radius:3px; }
+	#tmenu a:hover { height:40px}
+	#tmenu a.tsave {background:#0cb92d}
+	#tmenu a.tdel {background:#e3503d}
+
+	.bottom{ clear:both; font-size:10px; padding:10px; text-align:center; background:#ddd;}
+	
+	.eitem { padding:10px 0px 10px 0px; border-bottom:1px dashed #ccc; width:100%}
+	.eitem1 { width:200px; display:inline-block; font-size:12px; float:left;  font-weight:bold;}	
+	.eitem2 { padding-left:200px;}	
+	.eitem2 input{ width:40%;}	
+	.eitem2 textarea { width:80%; height:100px}	
+	.submit { width:100px; background:#0ca5ba; color:#FFF; line-height: }
+	
+
+	.map { line-height:1.8em;}
+	
+	h1 { font-size:30px; color:#0ca5ba; font-weight:normal; padding:10px 0px 10px 0px;}
+	
+	.odesc { cursor:pointer}
+	
+	#container{ position:absolute; z-index:100; top:-1000px; width:800px; min-height:400px; background:#fafafa; border:5px solid #ccc; padding:10px; font-size:12px}
+	#container select {font-size:13px}		
+	#container input {font-size:13px}		
+	#container textarea {font-size:13px}	
+	#container .ramp { padding:10px ; margin:0px 0px 20px 20px}
+	
+	
+	option {}
+	option.l0 {color: #000; font-weight:bold; text-transform:uppercase}
+	option.l1 {font-weight:bold; padding-left:20px;}
+	option.l2 { padding-left:40px;}
+	
+	.obl td { padding:10px 5px 10px 5px; border-bottom:1px solid #ccc; font-size:11px; line-height:13px; color:#777; max-width:200px}
+	.obl .otext { font-size:13px; color:#000; max-width:600px; width:600px}
+	.obl .o2 { color:#F00;}
+	
+	.approved { background:#cFe}
+	.notpaid {background:#FCF}
+
+	#popup { position:absolute; padding:10px; background:#FF9; border:2px solid #FF6; width:220px; height:30px; left:-500px}
+	#popup .editItem { width:190px; height:30px}	
+	#popup .delete { margin:0px;}	
+	#closePopup { background:#F00; width:10px; font-size:10px; line-height:10px; height:10px; font-weight:bold; padding:5px; text-align:center; color:#FFF; position:absolute; margin:5px 0px 0px 200px ; cursor:pointer}	
+	
+	.cms_menu_item { padding:0px 0px 0px 0px;}
+	.cms_menu_item select {font-size:11px; display:inline}
+	.cms_menu_item select {font-size:11px; display:inline}
+	.cms_menu_item h2 { font-size:20px;}
+	.cms_menu_item h3 { font-size:15px;}
+	.cms_menu_item h2,h3 {display:inline}
+	.but {border:none; width:16px; height:16px; }
+	.but_down{background:url(/cms/images/down.gif) no-repeat; border:none;  width:16px; height:16px; cursor:pointer }
+	.but_up{background:url(/cms/images/up.gif) no-repeat; border:none;  width:16px; height:16px; cursor:pointer }
+	.but_del{background:url(/cms/images/delete.gif) no-repeat; border:none;  width:16px; height:16px; cursor:pointer }
+	
+
+
+	table.tbl {border:none; border-collapse:collapse; width:100%}
+	table.tbl td {border:none; border-collapse:collapse; text-align:left; line-height:14px; font-size:12px; padding:5px;}	
+	table.tbl .title td {border:1px solid #fff; border-collapse:collapse; text-align:left; font-size:14px; line-height:18px; padding:5px; font-weight:normal; background:#276780; color:#FFF }
+
+	table.tbl .activeTH td { cursor:pointer}
+	table.tbl .activeTH td.asc { border-bottom:4px solid #276780; background:#b9ebff; color:#000}
+	table.tbl .activeTH td.desc { border-top:4px solid #276780; background:#b9ebff; color:#000}
+	

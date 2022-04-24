@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'pf_din_regular';
+    src: url('/fonts/robotocondensed-light-webfont.eot');
+    src: url('/fonts/robotocondensed-light-webfont.svg#roboto_condensedlight') format('svg'),
+		 url('/fonts/robotocondensed-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/robotocondensed-light-webfont.woff') format('woff'),
+         url('/fonts/robotocondensed-light-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+	
+@font-face {
+    font-family: 'pf_din_light';
+    src: url('/fonts/robotocondensed-light-webfont.eot');
+    src: url('/fonts/robotocondensed-light-webfont.svg#roboto_condensedlight') format('svg'),
+		 url('/fonts/robotocondensed-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/robotocondensed-light-webfont.woff') format('woff'),
+         url('/fonts/robotocondensed-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_din_bold';
+    src: url('/fonts/calibri-webfont.eot');
+    src: url('/fonts/calibri-webfont.svg#calibriregular') format('svg'),
+		 url('/fonts/calibri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/calibri-webfont.woff') format('woff'),
+         url('/fonts/calibri-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#indexContacts .col2 {font-size:27px;}
